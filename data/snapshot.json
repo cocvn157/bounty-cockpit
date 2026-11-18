@@ -1,6 +1,6 @@
 {
-  "generated_at_vn": "2026-11-18 12:41:36 +07:00",
-  "generated_at_utc": "2026-11-18T05:41:36Z",
+  "generated_at_vn": "2026-11-18 12:43:58 +07:00",
+  "generated_at_utc": "2026-11-18T05:43:58Z",
   "usd_to_vnd": 25400,
   "goal": {
     "target_usd": 1000,
@@ -30,7 +30,7 @@
     "last_github_write_at": "2026-11-18T04:23:40Z",
     "last_github_write_target": "CapSoftware/Cap#3706",
     "last_github_write_by": "commander-cb4885f2",
-    "gmail_status": "Đang quét tự động 15p/lần (sync lúc 12:41 VN)",
+    "gmail_status": "Đang quét tự động 15p/lần (sync lúc 12:43 VN)",
     "agents": [
       {
         "name": "Commander (AGENT LEAD)",
@@ -1039,6 +1039,13 @@
   ],
   "feed": [
     {
+      "at": "2026-11-18T12:43:58.575968+00:00",
+      "kind": "new",
+      "title": "PR mới: tari-project/tari-ootle#0",
+      "detail": "Private Security Advisory GHSA-x844-q559-4vcj (Consensus LocalAccept DoS)",
+      "url": "https://github.com/tari-project/tari-ootle/security/advisories/GHSA-x844-q559-4vcj"
+    },
+    {
       "at": "2026-11-18T11:59:18.623977+00:00",
       "kind": "new",
       "title": "PR mới: tari-project/tari-ootle#0",
@@ -1065,6 +1072,13 @@
       "title": "Khởi tạo Cockpit Sync Engine",
       "detail": "Đã quét 673 bài PR từ GitHub API",
       "url": null
+    },
+    {
+      "at": "2026-11-18T05:39:29Z",
+      "kind": "open",
+      "title": "Private Security Advisory GHSA-x844-q559-4vcj (Consensus LocalAccept DoS)",
+      "detail": "Lỗ hổng cross-shard LocalAccept HotStuff DoS đã gửi thành công",
+      "url": "https://github.com/tari-project/tari-ootle/security/advisories/GHSA-x844-q559-4vcj"
     },
     {
       "at": "2026-11-18T04:23:40Z",
@@ -1142,13 +1156,6 @@
       "title": "tscircuit/cli#5706 · Đã Rớt",
       "detail": "Bot tự động đóng do quá hạn Stale",
       "url": "https://github.com/tscircuit/cli/pull/5706"
-    },
-    {
-      "at": "2026-11-17T19:45:51Z",
-      "kind": "dropped",
-      "title": "CapSoftware/Cap#3925 · Đã Rớt",
-      "detail": "Thanks so much for this, @cocvn157! On `main`, `refresh_project_snapshot` already returns the previous snapshot after a change: the `Ref` from `borrow",
-      "url": "https://github.com/CapSoftware/Cap/pull/3925"
     }
   ],
   "items": [
@@ -1207,6 +1214,35 @@
       "drop_label": "Đã Nộp · Đang Triage",
       "drop_reason": "Báo cáo phân quyền handle_publish_template đã gửi thành công",
       "readiness": 72,
+      "next_action": "Chờ Tari Security Team xác nhận & xét thưởng XTM",
+      "owner": "Commander"
+    },
+    {
+      "id": "tari-project/tari-ootle#GHSA-x844-q559-4vcj",
+      "repo": "tari-project/tari-ootle",
+      "number": 0,
+      "title": "Private Security Advisory GHSA-x844-q559-4vcj (Consensus LocalAccept DoS)",
+      "url": "https://github.com/tari-project/tari-ootle/security/advisories/GHSA-x844-q559-4vcj",
+      "state": "ADVISORY",
+      "lang": "Rust",
+      "usd": 0.0,
+      "usd_label": "15k–150k XTM (Tari Bug Hunt)",
+      "tier": "Crypto / Tari XTM",
+      "created_at": "2026-11-18T05:39:29Z",
+      "updated_at": "2026-11-18T05:39:29Z",
+      "merged_at": null,
+      "closed_at": null,
+      "age_days": 0.0,
+      "mergeable": "NA",
+      "human_count": 0,
+      "bot_count": 0,
+      "latest_human": null,
+      "human_history": [],
+      "latest_bot": null,
+      "drop_state": "ALIVE",
+      "drop_label": "Đã Nộp · Đang Triage (High/Crit)",
+      "drop_reason": "Lỗ hổng cross-shard LocalAccept HotStuff DoS đã gửi thành công",
+      "readiness": 75,
       "next_action": "Chờ Tari Security Team xác nhận & xét thưởng XTM",
       "owner": "Commander"
     },
@@ -4420,7 +4456,7 @@
       "updated_at": "2026-11-08T00:19:34Z",
       "merged_at": null,
       "closed_at": null,
-      "age_days": 10.7,
+      "age_days": 10.8,
       "mergeable": "CONFLICTING",
       "human_count": 1,
       "bot_count": 4,
@@ -8078,7 +8114,7 @@
       "updated_at": "2026-11-06T06:54:39Z",
       "merged_at": null,
       "closed_at": null,
-      "age_days": 11.9,
+      "age_days": 12.0,
       "mergeable": "MERGEABLE",
       "human_count": 0,
       "bot_count": 1,
@@ -11139,7 +11175,7 @@
       "updated_at": "2026-11-06T03:28:24Z",
       "merged_at": null,
       "closed_at": null,
-      "age_days": 12.8,
+      "age_days": 12.9,
       "mergeable": "MERGEABLE",
       "human_count": 0,
       "bot_count": 0,
@@ -14742,7 +14778,7 @@
       "updated_at": "2026-11-06T09:37:39Z",
       "merged_at": null,
       "closed_at": null,
-      "age_days": 13.0,
+      "age_days": 13.1,
       "mergeable": "MERGEABLE",
       "human_count": 0,
       "bot_count": 1,
@@ -20445,7 +20481,7 @@
       "updated_at": "2026-11-09T07:49:38Z",
       "merged_at": null,
       "closed_at": "2026-11-09T07:49:29Z",
-      "age_days": 10.7,
+      "age_days": 10.8,
       "mergeable": "UNKNOWN",
       "human_count": 1,
       "bot_count": 2,
