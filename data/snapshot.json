@@ -1,6 +1,6 @@
 {
-  "generated_at_vn": "2026-11-18 15:45:17 +07:00",
-  "generated_at_utc": "2026-11-18T08:45:17Z",
+  "generated_at_vn": "2026-11-18 15:45:30 +07:00",
+  "generated_at_utc": "2026-11-18T08:45:30Z",
   "usd_to_vnd": 25400,
   "goal": {
     "target_usd": 1000,
@@ -3095,7 +3095,7 @@
       "merged_at": null,
       "closed_at": null,
       "age_days": 6.9,
-      "mergeable": "UNKNOWN",
+      "mergeable": "MERGEABLE",
       "human_count": 0,
       "bot_count": 1,
       "latest_human": null,
