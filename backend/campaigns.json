@@ -52,6 +52,19 @@
     "next_action": "Chỉ cần copy-paste nội dung từ scratch\\NANDASEAL_DEVPOST_SUBMISSION.md lên Devpost (https://cognizant-agenticweb.devpost.com/) là chốt."
   },
   {
+    "id": "signal-lock-reddit-devpost",
+    "name": "Signal Lock (Reddit Game of the Day · Devpost)",
+    "category": "Hackathon Build · Reddit Devvit Web + Redis",
+    "reward": "$35,000 USD Cash (23 giải: $15k · 10x$1k · 6x$500 · 5x$200)",
+    "status": "BUILD XONG + LIVE WEB DEMO · CHỜ PLAYTEST REDDIT",
+    "badge": "blue",
+    "progress": 85,
+    "deadline": "08/12/2026 (Hợp lệ VN, 100% vốn $0)",
+    "url": "https://github.com/cocvn157/signal-lock-devvit",
+    "verified": "Build xong Game Daily Laser 5x5 trên @devvit/web@0.15.4 + Express + Redis Streak Leaderboard · tsc 0 lỗi · 4/4 tests 30-day solver PASS · Đã đẩy GitHub & bật Pages",
+    "next_action": "Chạy `npx.cmd devvit login` + `npx.cmd devvit upload` để đăng Interactive Post lên Reddit rồi nộp form Devpost (https://redditgameofday2026.devpost.com/)."
+  },
+  {
     "id": "superteam-earn-pack",
     "name": "Superteam Earn (Nosana · Anna AI · Raenest)",
     "category": "Content · Infographic · Animation",
