@@ -53,16 +53,16 @@
   },
   {
     "id": "tari-ootle-security-bounties",
-    "name": "Tari Security Advisories (6 GHSA + 11 PRs)",
-    "category": "Security Audit · Consensus, Indexer & Wallet SDK",
-    "reward": "60,000–150,000 XTM / GHSA + Bug Hunt 250k–1M XTM",
-    "status": "ĐÃ NỘP 6 GHSA · ĐANG TRIAGE",
+    "name": "Tari Ecosystem Bounties (1 thắng #676 + 6 GHSA + 18 PRs)",
+    "category": "Security Audit & Bugfix · tari-ootle, ootle.ts, ootle-py",
+    "reward": "Đã thắng 15k XTM (#676) · Tiềm năng 18 PRs + 6 GHSA + Bug Hunt",
+    "status": "ĐÃ THẮNG #676 (CLAIM #678) · 18 PR + 6 GHSA CHỜ DUYỆT",
     "badge": "emerald",
     "progress": 100,
     "deadline": "Đang chấm thưởng trên tari-project/bounties",
-    "url": "https://github.com/tari-project/bounties",
-    "verified": "Đã nộp A-Z 6 Private Security Advisories (GHSA-9xcg, GHSA-9j8f, GHSA-x844, GHSA-49mw, GHSA-h8f4-38r7-h722, GHSA-9fq3-rmxr-hfvg) + 11 PR would approve",
-    "next_action": "Chờ đội Tari triage GHSA -> nhận XTM qua tari-project/special_contributions; tiếp tục audit tari-universe & tari L1."
+    "url": "https://github.com/tari-project/special_contributions/pull/678",
+    "verified": "Thắng #676 (15,000 XTM, claim #678) · 6 GHSA triage · 12 PR tari-ootle (#3830–#3870) · 4 PR ootle.ts (#154–#160) · 2 PR ootle-py (#20, #22)",
+    "next_action": "Chờ đội Tari chuyển 15k XTM (#678) và review/merge 18 PR + triage 6 GHSA qua tari-project/special_contributions."
   },
   {
     "id": "signal-lock-reddit-devpost",
