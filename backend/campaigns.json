@@ -1,0 +1,80 @@
+[
+  {
+    "id": "rws-project-callisto",
+    "name": "RWS Project Callisto (Google Search Rater)",
+    "category": "Job AI Remote · Lương Giờ USD",
+    "reward": "Hourly USD (Ổn định, không phỏng vấn nói)",
+    "status": "TỐT NGHIỆP TRAINAI · CHỜ THI",
+    "badge": "emerald",
+    "progress": 85,
+    "deadline": "Mở bài thi RaterHub trong 1–5 ngày làm việc",
+    "url": "https://rwsfiles.sharefile.eu",
+    "verified": "Đậu Language Test vi-VN (29/35) · Hoàn thành 100% 4 Module & Quiz trên TrainAI University (18/11) · Đã nhận mail RWS Next Steps",
+    "next_action": "Chờ email mời thi RaterHub Final Exam (3 phần, có 2 lần thi) rồi làm bài trực tiếp theo cẩm nang chuẩn Google Guidelines."
+  },
+  {
+    "id": "aevum-pay-guard",
+    "name": "AevumPay Guard (Aevum Builder Challenge #1)",
+    "category": "Hackathon Build · Solidity + React",
+    "reward": "$1,500 USDT ($800 / $500 / $200)",
+    "status": "ĐÃ NỘP DORAHACKS",
+    "badge": "emerald",
+    "progress": 100,
+    "deadline": "11/12/2026 · Demo Day 15/12",
+    "url": "https://github.com/cocvn157/aevum-pay-guard",
+    "verified": "7/7 Hardhat tests pass (ERC-8004 CoP + tUSD8 Escrow) · Tạo xong demo.mp4 · Đã đẩy GitHub & nộp chính thức Track Confirmation of Payee tối 18/11",
+    "next_action": "Đã hoàn thành nộp bài sớm 22 ngày; chờ ban tổ chức QDay chấm điểm & công bố giải thưởng."
+  },
+  {
+    "id": "reactive-sentinel-omni",
+    "name": "Reactive Sentinel Omni (Reactive Buildathon)",
+    "category": "Hackathon Build · Cross-chain Solidity",
+    "reward": "$5,500 USD (REACT) · Full-Loop On-Chain Verified",
+    "status": "ĐÃ DEPLOY THẬT & NỘP DORAHACKS",
+    "badge": "emerald",
+    "progress": 100,
+    "deadline": "05/12/2026 (20:00 UTC)",
+    "url": "https://github.com/cocvn157/reactive-sentinel-omni",
+    "verified": "Deploy thật trên Lasna (0x7d0Ea4...687c) & Sepolia (0xca68eD...7689) · Đóng băng thật +12s full-loop (Tx 0x43e9...5038) · Đã nộp DoraHacks sáng 19/11",
+    "next_action": "Đã hoàn thành 100% mã nguồn, video demo & Tx Hash thật; chờ chấm giải sau 05/12/2026."
+  },
+  {
+    "id": "superteam-earn-pack",
+    "name": "Superteam Earn (Nosana · Anna AI · Raenest)",
+    "category": "Content · Infographic · Animation",
+    "reward": "300 + 660 NOS · 250 USDC · Quỹ 13,000 USDC",
+    "status": "ĐÃ SOẠN KIT · CHỜ NỘP",
+    "badge": "amber",
+    "progress": 80,
+    "deadline": "25/11 – 13/12/2026",
+    "url": "https://superteam.fun/earn",
+    "verified": "Đã viết xong trọn bộ bài Nosa Feedback, Nosana Explainer, Anna AI Thread + 2 ảnh đồ họa 16:9 & kịch bản Raenest",
+    "next_action": "Khi rảnh mở Discord/X copy-paste đăng bài và nộp link lên Superteam Earn."
+  },
+  {
+    "id": "even-realities-hackathon",
+    "name": "EvenBrief HUD (Even Realities Hackathon)",
+    "category": "Hackathon Build · JS/TS Glasses Simulator",
+    "reward": "$10,000 USDT (10 giải) + Kính G2",
+    "status": "CHỜ MỞ CODE 23/11",
+    "badge": "blue",
+    "progress": 25,
+    "deadline": "29/11/2026 (Build 23–29/11)",
+    "url": "https://dorahacks.io/hackathon/even-realities",
+    "verified": "0 BUIDL lúc mở · Đã đọc xong @evenrealities/even_hub_sdk@0.0.16 & chốt thiết kế Telegram/AI Priority HUD",
+    "next_action": "Đúng ngày 23/11 bắt đầu code (theo đúng luật cấm code trước) & chạy simulator evenhub-simulator."
+  },
+  {
+    "id": "zero-fee-security-audit",
+    "name": "Security Audit $0 Phí Nộp (Immunefi / Sherlock)",
+    "category": "Bảo mật Web3/Rust · Critical",
+    "reward": "$1,000 – $50,000 USDC (No-KYC, $0 phí nộp)",
+    "status": "ĐÃ CÓ POC CRITICAL · CHẶN PASSPORT",
+    "badge": "amber",
+    "progress": 75,
+    "deadline": "Đang tạm giữ bản nháp kín",
+    "url": "https://immunefi.com/bug-bounty/",
+    "verified": "Đã có Unit PoC (2/2 PASS) & Arbitrum Fork PoC (2/2 PASS) chứng minh lỗi Critical dHEDGE; bị chặn do form Immunefi đòi Human Passport >= 25 điểm",
+    "next_action": "Giữ kín theo embargo; tìm chương trình Bug Bounty $0 không đòi Human Passport hoặc bổ sung stamp sau."
+  }
+]
