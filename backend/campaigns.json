@@ -43,13 +43,13 @@
     "name": "NandaSeal (Open Agentic Web Challenge · Devpost)",
     "category": "Hackathon Build · Web Crypto + Web Component",
     "reward": "$10,000–$13,000 USD (Cognizant · MIT NANDA · Mozilla · AWS)",
-    "status": "ĐÃ LIVE + DEMO.MP4 + PR #49 · CHỜ NỘP DEVPOST",
+    "status": "ĐÃ NỘP CHÍNH THỨC DEVPOST",
     "badge": "emerald",
-    "progress": 95,
+    "progress": 100,
     "deadline": "11/01/2027 (Mới có 4 site trên directory chính thức)",
-    "url": "https://cocvn157.github.io/nanda-seal/",
-    "verified": "Live 200 OK trên GitHub Pages · Self-signed ECDSA P-256 (100/100 MVP Profile 0.2) · 7/7 tests PASS · Đã đẩy demo.mp4 & mở PR cognizant-ai-labs/agentic-web#49",
-    "next_action": "Chỉ cần copy-paste nội dung từ scratch\\NANDASEAL_DEVPOST_SUBMISSION.md lên Devpost (https://cognizant-agenticweb.devpost.com/) là chốt."
+    "url": "https://devpost.com/software/nandaseal-cryptographic-agentfacts-studio-nanda-seal",
+    "verified": "ĐÃ SUBMIT 100% trên Devpost · Live 200 OK (100/100 MVP Profile 0.2) · Video YouTube + Screenshot + 7/7 tests PASS · PR cognizant-ai-labs/agentic-web#49",
+    "next_action": "Đã hoàn thành nộp bài sớm 53 ngày; chờ chấm giải sau 11/01/2027 (có thể edit nếu cần trước hạn)."
   },
   {
     "id": "signal-lock-reddit-devpost",
