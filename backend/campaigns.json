@@ -43,13 +43,13 @@
     "name": "NandaSeal (Open Agentic Web Challenge · Devpost)",
     "category": "Hackathon Build · Web Crypto + Web Component",
     "reward": "$10,000–$13,000 USD (Cognizant · MIT NANDA · Mozilla · AWS)",
-    "status": "BUILD XONG 7/7 TESTS · CHỜ PUSH & NỘP",
-    "badge": "blue",
-    "progress": 90,
-    "deadline": "11/01/2027 (Mới mở, mới có 4 site trên directory)",
-    "url": "https://cognizant-agenticweb.devpost.com/",
-    "verified": "Build xong 100% không dependency · ECDSA P-256 self-signed (100/100 MVP Profile 0.2) · 7/7 unit tests PASS · <nanda-seal> Web Component & bộ nộp Devpost sẵn sàng",
-    "next_action": "Khi mạng máy lên lại: push cocvn157/nanda-seal + bật GitHub Pages rồi copy-paste bộ kit nộp Devpost."
+    "status": "ĐÃ LIVE + DEMO.MP4 + PR #49 · CHỜ NỘP DEVPOST",
+    "badge": "emerald",
+    "progress": 95,
+    "deadline": "11/01/2027 (Mới có 4 site trên directory chính thức)",
+    "url": "https://cocvn157.github.io/nanda-seal/",
+    "verified": "Live 200 OK trên GitHub Pages · Self-signed ECDSA P-256 (100/100 MVP Profile 0.2) · 7/7 tests PASS · Đã đẩy demo.mp4 & mở PR cognizant-ai-labs/agentic-web#49",
+    "next_action": "Chỉ cần copy-paste nội dung từ scratch\\NANDASEAL_DEVPOST_SUBMISSION.md lên Devpost (https://cognizant-agenticweb.devpost.com/) là chốt."
   },
   {
     "id": "superteam-earn-pack",
