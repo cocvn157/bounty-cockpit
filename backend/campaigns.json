@@ -52,6 +52,19 @@
     "next_action": "Đã hoàn thành nộp bài sớm 53 ngày; chờ chấm giải sau 11/01/2027 (có thể edit nếu cần trước hạn)."
   },
   {
+    "id": "tari-ootle-security-bounties",
+    "name": "Tari Ootle Security Advisories (4 GHSA + 11 PRs)",
+    "category": "Security Audit · Consensus & Walletd",
+    "reward": "60,000–150,000 XTM / GHSA + Bug Hunt 250k–1M XTM",
+    "status": "ĐÃ NỘP 4 GHSA · ĐANG TRIAGE",
+    "badge": "emerald",
+    "progress": 100,
+    "deadline": "Đang chấm thưởng trên tari-project/bounties",
+    "url": "https://github.com/tari-project/bounties",
+    "verified": "Đã nộp A-Z 4 Private Security Advisories (GHSA-9xcg, GHSA-9j8f, GHSA-x844, và GHSA-49mw-pgvh-wp3c lúc 16:08 VN 19/11) + 11 PR would approve",
+    "next_action": "Chờ đội Tari xác nhận GHSA -> tự động nhận XTM qua tari-project/special_contributions."
+  },
+  {
     "id": "signal-lock-reddit-devpost",
     "name": "Signal Lock (Reddit Game of the Day · Devpost)",
     "category": "Hackathon Build · Reddit Devvit Web + Redis",
