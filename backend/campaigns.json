@@ -65,6 +65,19 @@
     "next_action": "Chạy `npx.cmd devvit login` + `npx.cmd devvit upload` để đăng Interactive Post lên Reddit rồi nộp form Devpost (https://redditgameofday2026.devpost.com/)."
   },
   {
+    "id": "nanovault-hybrid-devpost",
+    "name": "NanoVault Hybrid (#BuildHybridAI 2026 · Google)",
+    "category": "Hackathon Build · Firebase AI Logic + Chrome MV3",
+    "reward": "$30,000 USD Cash (Grand $10k · Best Web/Chrome $3k)",
+    "status": "BUILD XONG 100% + LIVE + VIDEO · CHỜ NỘP",
+    "badge": "blue",
+    "progress": 90,
+    "deadline": "30/11/2026 (Hợp lệ VN, 100% vốn $0)",
+    "url": "https://cocvn157.github.io/nanovault-hybrid/",
+    "verified": "Live 200 OK · Dùng firebase@13.4.0 (firebase/ai InferenceMode) + PII Guard + Chrome Extension MV3 · tsc 0 lỗi · 7/7 tests PASS · demo.mp4 & screenshot.png",
+    "next_action": "Tối rảnh up demo.mp4 lên YouTube Unlisted + dán bộ có sẵn từ scratch\\BUILDHYBRIDAI_DEVPOST_SUBMISSION.md lên Devpost."
+  },
+  {
     "id": "superteam-earn-pack",
     "name": "Superteam Earn (Nosana · Anna AI)",
     "category": "Content · Infographic",
