@@ -53,16 +53,16 @@
   },
   {
     "id": "tari-ootle-security-bounties",
-    "name": "Tari Ootle Security Advisories (4 GHSA + 11 PRs)",
-    "category": "Security Audit · Consensus & Walletd",
+    "name": "Tari Security Advisories (6 GHSA + 11 PRs)",
+    "category": "Security Audit · Consensus, Indexer & Wallet SDK",
     "reward": "60,000–150,000 XTM / GHSA + Bug Hunt 250k–1M XTM",
-    "status": "ĐÃ NỘP 4 GHSA · ĐANG TRIAGE",
+    "status": "ĐÃ NỘP 6 GHSA · ĐANG TRIAGE",
     "badge": "emerald",
     "progress": 100,
     "deadline": "Đang chấm thưởng trên tari-project/bounties",
     "url": "https://github.com/tari-project/bounties",
-    "verified": "Đã nộp A-Z 4 Private Security Advisories (GHSA-9xcg, GHSA-9j8f, GHSA-x844, và GHSA-49mw-pgvh-wp3c lúc 16:08 VN 19/11) + 11 PR would approve",
-    "next_action": "Chờ đội Tari xác nhận GHSA -> tự động nhận XTM qua tari-project/special_contributions."
+    "verified": "Đã nộp A-Z 6 Private Security Advisories (GHSA-9xcg, GHSA-9j8f, GHSA-x844, GHSA-49mw, GHSA-h8f4-38r7-h722, GHSA-9fq3-rmxr-hfvg) + 11 PR would approve",
+    "next_action": "Chờ đội Tari triage GHSA -> nhận XTM qua tari-project/special_contributions; tiếp tục audit tari-universe & tari L1."
   },
   {
     "id": "signal-lock-reddit-devpost",
