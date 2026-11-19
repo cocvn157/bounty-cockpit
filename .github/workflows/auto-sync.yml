@@ -1,0 +1,47 @@
+name: Auto-Sync Bounty Cockpit
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main (sync engine)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Checkout gh-pages into dist
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: dist
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run sync engine
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python backend/sync_engine.py
+
+      - name: Commit & push updated snapshot to gh-pages
+        working-directory: dist
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/snapshot.json
+          if git diff --cached --quiet; then
+            echo "No snapshot changes."
+          else
+            git commit -m "chore(auto-sync): update bounty cockpit snapshot"
+            git push origin gh-pages
+          fi
