@@ -14,29 +14,29 @@
   },
   {
     "id": "tari-ootle-security-bounties",
-    "name": "Tari Ecosystem (Thắng #676 · 30+ PR · 7 Bản Nháp GHSA Mới)",
+    "name": "Tari Ecosystem (#3851 & #3886 Đã Merge · Đang Vá Review · 7 Nháp GHSA)",
     "category": "Security Audit & Bugfix · Rust / Python / TS",
-    "reward": "Thắng 15k XTM (#676) · Medium 60k / High 150k / XL 450k XTM",
-    "status": "ĐÃ THẮNG 15K XTM · CÓ 7 MEDIUM GHSA NHÁP",
+    "reward": "Chốt 15k XTM (#676, ~$8.8) · Chờ xét retro #3886 · Medium 60k XTM",
+    "status": "ĐÃ MERGE #3851 & #3886 · ĐANG VÁ REVIEW",
     "badge": "emerald",
-    "progress": 95,
+    "progress": 96,
     "deadline": "Trả thưởng gộp 1–2 tuần qua special_contributions",
-    "url": "https://github.com/tari-project/special_contributions/pull/678",
-    "verified": "Claim #678 (15k XTM) chờ batch; 18 PR tari-ootle (#3884–#3886 mới), ootle-py#25 (443/443), wxtm#159 (112/112), tari L1 #8407/#8408 + 7 nháp Medium GHSA (3 universe + 4 tari L1)",
-    "next_action": "Nộp riêng tư 3 nháp GHSA universe + 4 nháp GHSA tari L1 qua GitHub Security Advisories; chờ duyệt PR."
+    "url": "https://github.com/tari-project/tari-ootle/pull/3886",
+    "verified": "PR #3886 ĐÃ MERGE 15:29 VN (20/11); Claim #678 (15k XTM cho #3851) chờ batch; ĐÃ ĐẨY FIX REVIEW cho #8408/#3885/#3882/#3881/#3884/#3871 + 7 nháp Medium GHSA",
+    "next_action": "Chờ maintainer mở retro-bounty cho #3886; tối gửi 3 nháp GHSA universe + 4 nháp GHSA tari L1."
   },
   {
     "id": "open-agentic-web-trio",
-    "name": "Open Agentic Web (3 Mũi Nhọn MVP 0.3: NandaSeal · ScopeGate · MeshWeave)",
+    "name": "Open Agentic Web (NandaSeal ĐÃ MERGE #49 · ScopeGate · MeshWeave)",
     "category": "Hackathon Build · Devpost + GitHub Pages",
     "reward": "$10,000–$13,000 USD ($5k / $3k / $2k · mới ~6 đối thủ)",
-    "status": "CẢ 3 ĐỀU LIVE 200 OK · PASS CHUẨN 0.3",
+    "status": "NANDASEAL ĐÃ MERGE #49 · CẢ 3 LIVE 200 OK",
     "badge": "emerald",
-    "progress": 95,
+    "progress": 96,
     "deadline": "11/01/2027",
     "url": "https://cocvn157.github.io/nanda-seal/",
-    "verified": "NandaSeal ĐÃ NỘP + MERGED #49 (vừa nâng cấp MVP 0.3); ScopeGate Studio (11/11) & MeshWeave Studio (8/8) đều LIVE 200 OK và pass check_partner.mjs 0 lỗi",
-    "next_action": "Quay clip <3p cho ScopeGate & MeshWeave -> nộp lên Devpost -> mở PR vào cognizant-ai-labs/agentic-web."
+    "verified": "NandaSeal ĐÃ NỘP + MERGED #49 (06:21 VN 20/11, chuẩn MVP 0.3); ScopeGate Studio (11/11) & MeshWeave Studio (8/8) LIVE 200 OK, pass check_partner.mjs 0 lỗi",
+    "next_action": "Quay clip <3p cho ScopeGate & MeshWeave -> nộp Devpost -> mở PR vào cognizant-ai-labs/agentic-web."
   },
   {
     "id": "kiroween-2026-frankenwave",
@@ -121,13 +121,13 @@
     "name": "Bộ 4 Giải Kaggle ($550,000 USD: PLE · LLM · Santa · Squares)",
     "category": "AI Harness · NLP · Algorithmic Optimization",
     "reward": "$400k + $50k + $50k + $50k USD",
-    "status": "ĐÃ CODE & PASS 80/80 TEST · CHỜ LOGIN KAGGLE",
-    "badge": "blue",
-    "progress": 80,
+    "status": "ĐÃ JOIN & NỘP KYC KAGGLE · SẴN SÀNG NỘP BÀI",
+    "badge": "emerald",
+    "progress": 88,
     "deadline": "05/01 – 28/01/2027 (Mốc Squares 17/01)",
-    "url": "https://www.kaggle.com/competitions/santa-2026",
-    "verified": "PLE 28/28 pass; Name That LLM 23/23 pass; Santa -40.58% (121.5->72.2, 11/11); Squares 377/1000 thắng lưới (24.171085 vs 28.937670, 34/34 pass)",
-    "next_action": "Đăng nhập Kaggle chấp nhận thể lệ 4 giải -> chạy xuất submission.csv / Kaggle GPU / Docker artifacts."
+    "url": "https://www.kaggle.com/competitions/squares-in-squares",
+    "verified": "Đã Join Squares in Squares + ĐÃ GỬI KYC Persona (Identity verification processing); PLE 28/28, LLM 23/23, Santa -40.58%, Squares 377/1000 thắng lưới (24.171085 vs 28.937670)",
+    "next_action": "Join nốt Santa 2026 & Name That LLM; tối về lấy kaggle.json & up submission_full1000.csv.gz khi KYC xong."
   },
   {
     "id": "remote-ai-jobs-clean",
