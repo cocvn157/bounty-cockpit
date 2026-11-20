@@ -126,7 +126,7 @@
     "progress": 80,
     "deadline": "05/01 – 28/01/2027 (Mốc Squares 17/01)",
     "url": "https://www.kaggle.com/competitions/santa-2026",
-    "verified": "PLE 28/28 pass; Name That LLM 23/23 pass; Santa -40.58% (121.5->72.2, 11/11); Squares N=1..25 valid (18/18)",
+    "verified": "PLE 28/28 pass; Name That LLM 23/23 pass; Santa -40.58% (121.5->72.2, 11/11); Squares 377/1000 thắng lưới (24.171085 vs 28.937670, 34/34 pass)",
     "next_action": "Đăng nhập Kaggle chấp nhận thể lệ 4 giải -> chạy xuất submission.csv / Kaggle GPU / Docker artifacts."
   },
   {
