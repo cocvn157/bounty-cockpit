@@ -11,7 +11,7 @@ DB_PATH = BASE_DIR / "backend" / "cockpit.db"
 PUBLIC_SNAPSHOT = BASE_DIR / "public" / "data" / "snapshot.json"
 DIST_SNAPSHOT = BASE_DIR / "dist" / "data" / "snapshot.json"
 CAMPAIGNS_FILE = BASE_DIR / "backend" / "campaigns.json"
-ELITE_HQ = Path(os.environ.get("ELITE_HQ_DIR", str(BASE_DIR / "backend")))
+ELITE_HQ = Path(r"C:\Users\NITRO\.gemini\antigravity\scratch\elite-sniper-hq")
 LOCK_FILE = ELITE_HQ / "task_registry_lock.json"
 W2_FILE = ELITE_HQ / "worker2_ai_job_state.json"
 
@@ -45,6 +45,9 @@ FROZEN_OR_ZERO_REPOS = {
 
 KNOWN_PR_VALUES = {
     ("go-gitea/gitea", 40201): (200, "$200 USD (Rủi ro: #6898 từng gỡ bounty 12/2024)"),
+    ("tari-project/tari-ootle", 3851): (8.82, "15,000 XTM Đã Duyệt (#676 · ~$8.82)"),
+    ("tari-project/tari-ootle", 3886): (0, "Đã Merge 15:29 VN · Chờ xét retro-bounty XTM"),
+    ("cognizant-ai-labs/agentic-web", 49): (0, "Đã Merge #49 · Open Agentic Web ($10k-$13k)"),
     ("go-gitea/gitea", 40228): (0, "PR kỹ thuật phụ (không gắn bounty)"),
     ("documenso/documenso", 3577): (0, "Rủi ro trùng (#3582 đã merge 11/11)"),
     ("PsymoNiko/mediamtx-dashboard", 134): (0, "$0 (Bounty #4 đã trao từ 05/2026)"),
@@ -163,7 +166,11 @@ def fetch_all(token: str, q: str) -> list[dict]:
 def parse_usd_and_tier(repo: str, num: int, title: str, labels: list[str]) -> tuple[float, str, str]:
     if (repo, num) in KNOWN_PR_VALUES:
         val, lbl = KNOWN_PR_VALUES[(repo, num)]
-        tier = "Crypto / Ergo" if repo.startswith("ergoplatform/") else ("USD Cash" if val > 0 else "$0")
+        tier = (
+            "Crypto / Ergo"
+            if repo.startswith("ergoplatform/")
+            else ("Crypto / Tari XTM" if repo.startswith("tari-project/") else ("USD Cash" if val > 0 else "$0"))
+        )
         return float(val), lbl, tier
     if repo.startswith("tari-project/"):
         return 0.0, "XTM Retro Bounty (Chưa định giá USD)", "Crypto / Tari XTM"
@@ -685,12 +692,12 @@ def run_sync() -> dict:
             "last_github_write_at": last_write_at,
             "last_github_write_target": lock_data.get("last_github_write_target"),
             "last_github_write_by": lock_data.get("last_github_write_by"),
-            "gmail_status": f"Auto-Sync GitHub 30p/lần (sync lúc {now_vn.strftime('%H:%M VN')})",
+            "gmail_status": f"Kiểm tra theo yêu cầu (sync lúc {now_vn.strftime('%H:%M VN')})",
             "agents": [
-                {"name": "Commander (AGENT LEAD)", "status": "Active", "focus": "Theo dõi Cap #3706/#4149, Ergo #2952/#2920, Tari #3843 (đã rebase xanh)"},
-                {"name": "Hackathon Build Team", "status": "Submitted", "focus": "Đã nộp xong AevumPay Guard ($1.5k) & Reactive Sentinel Omni ($5.5k, full-loop thật trên Lasna+Sepolia)"},
-                {"name": "Security Auditor (Pro)", "status": "Standby", "focus": "Giữ kín PoC Critical dHEDGE (chờ gỡ ngưỡng Human Passport / kèo No-Passport)"},
-                {"name": "RWS & Mail Monitor", "status": "Ready", "focus": "Callisto đã tốt nghiệp TrainAI 100% · Chờ mail mở RaterHub Final Exam"},
+                {"name": "Stellar Wave 11 (15/15)", "status": "Ready", "focus": "Đậu KYC & apply 15/15 (3,000đ) · Đã pre-stage 15/15 branch airlock & Dex-Chat, chờ assign để push"},
+                {"name": "Tari Bounty Team", "status": "Active", "focus": "Đã merge #3851 (15k XTM #676) & #3886 (15:29 VN) · Đã push fix review #8408/#3885/#3882/#3881/#3884/#3871 + 7 nháp GHSA"},
+                {"name": "Hackathon & Kaggle", "status": "Active", "focus": "Agentic Web #49 merged · Live Kiroween/ShipGuard/SignalLock/NanoVault/CycleArbiter · 4 giải Kaggle $550k"},
+                {"name": "Remote AI Jobs", "status": "Standby", "focus": "Lọc sạch DataAnnotation.tech & Mindrift ($20-$90/h, không phỏng vấn nói) chờ thi bằng mạng nhà"},
             ],
         },
         "campaigns": json.loads(CAMPAIGNS_FILE.read_text(encoding="utf-8")) if CAMPAIGNS_FILE.exists() else [],
