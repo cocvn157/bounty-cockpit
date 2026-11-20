@@ -1,16 +1,16 @@
 [
   {
     "id": "stellar-wave-11-usdc",
-    "name": "Stellar Wave 11 (15 Nhánh Pre-Stage · 2,550 Điểm)",
+    "name": "Stellar Wave 11 (15/15 Slot Đã Apply · 3,000 Điểm Đã Code Sẵn)",
     "category": "OSS Sprint · Python + TypeScript",
     "reward": "Chia quỹ $75,000 USDC (~12–15 ngày về ví)",
-    "status": "ĐÃ CODE & TEST SẴN 2,550 ĐIỂM",
+    "status": "ĐÃ KYC + APPLY ĐỦ 15/15 (3,000Đ)",
     "badge": "emerald",
-    "progress": 85,
+    "progress": 90,
     "deadline": "25/11/2026 (14:00)",
     "url": "https://www.drips.network/wave/stellar",
-    "verified": "15 issue 0 đối thủ đã code & pass test local (airlock 950đ, sorolens 300đ, Stellar-Dex-Chat 1,300đ); giữ chưa push để đúng luật Drips Wave",
-    "next_action": "Hoàn tất Sumsub KYC trên drips.network/wave/stellar và bấm Apply 15 issue trên -> nhắn để đẩy PR ngay."
+    "verified": "Đậu Sumsub KYC; Apply đủ 15/15 bài 200đ (airlock 7/7 0 đối thủ + Dex 8/8) & ĐÃ CODE + PASS TEST ĐỦ 15/15 nhánh sẵn sàng push PR",
+    "next_action": "Chờ maintainer gán tên (check bằng lệnh khi anh báo) là đẩy thẳng 15 PR lên kiếm USDC!"
   },
   {
     "id": "tari-ootle-security-bounties",
