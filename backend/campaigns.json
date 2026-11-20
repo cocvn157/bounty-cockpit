@@ -14,16 +14,16 @@
   },
   {
     "id": "tari-ootle-security-bounties",
-    "name": "Tari Ecosystem (#3851 & #3886 Đã Merge · Đang Vá Review · 7 Nháp GHSA)",
+    "name": "Tari Ecosystem (#3851 & #3886 Đã Merge · ĐÃ NỘP 6/6 GHSA)",
     "category": "Security Audit & Bugfix · Rust / Python / TS",
     "reward": "Chốt 15k XTM (#676, ~$8.8) · Chờ xét retro #3886 · Medium 60k XTM",
-    "status": "ĐÃ MERGE #3851 & #3886 · ĐANG VÁ REVIEW",
+    "status": "ĐÃ MERGE #3851 & #3886 · ĐÃ NỘP 6/6 GHSA",
     "badge": "emerald",
-    "progress": 96,
+    "progress": 98,
     "deadline": "Trả thưởng gộp 1–2 tuần qua special_contributions",
     "url": "https://github.com/tari-project/tari-ootle/pull/3886",
-    "verified": "PR #3886 ĐÃ MERGE 15:29 VN (20/11); Claim #678 (15k XTM cho #3851) chờ batch; ĐÃ ĐẨY FIX REVIEW cho #8408/#3885/#3882/#3881/#3884/#3871 + 7 nháp Medium GHSA",
-    "next_action": "Chờ maintainer mở retro-bounty cho #3886; tối gửi 3 nháp GHSA universe + 4 nháp GHSA tari L1."
+    "verified": "PR #3886 ĐÃ MERGE 15:29 VN (20/11); Claim #678 (15k XTM) chờ batch; Đã push fix review 6 PR; ĐÃ NỘP 6/6 GHSA (2 universe + 4 tari L1) + 1 Medium mới wxtm-bridge-frontend",
+    "next_action": "Nộp nốt 1 GHSA wxtm-bridge-frontend (2 phút) & chờ triage 6 GHSA + retro-bounty #3886."
   },
   {
     "id": "open-agentic-web-trio",
@@ -69,13 +69,13 @@
     "name": "NanoVault Hybrid (#BuildHybridAI 2026 · Google)",
     "category": "Hackathon Build · Firebase AI Logic + Chrome MV3",
     "reward": "$30,000 USD Cash (Grand $10k · Best Web/Chrome $3k)",
-    "status": "BUILD XONG 100% + LIVE + VIDEO · CHỜ NỘP",
-    "badge": "blue",
-    "progress": 95,
+    "status": "ĐÃ NỘP DEVPOST 100% (20/11)",
+    "badge": "emerald",
+    "progress": 100,
     "deadline": "30/11/2026 (14:00 PT)",
     "url": "https://cocvn157.github.io/nanovault-hybrid/",
-    "verified": "Live 200 OK · 7/7 tests PASS · đã có sẵn demo.mp4 & screenshot.png & BUILDHYBRIDAI_DEVPOST_SUBMISSION.md",
-    "next_action": "Tối rảnh up demo.mp4 lên YouTube Unlisted + dán bộ có sẵn lên buildhybridai.devpost.com."
+    "verified": "ĐÃ NỘP trên firebasehybridaihackathon.devpost.com (20:44 VN 20/11) · MIT LICENSE 926ef8d · YouTube Unlisted demo · Live 200 OK · 7/7 tests PASS",
+    "next_action": "Chờ ban tổ chức chấm giải #BuildHybridAI 2026 (sau 30/11/2026)."
   },
   {
     "id": "signal-lock-reddit-devpost",
@@ -121,13 +121,13 @@
     "name": "Bộ 4 Giải Kaggle ($550,000 USD: PLE · LLM · Santa · Squares)",
     "category": "AI Harness · NLP · Algorithmic Optimization",
     "reward": "$400k + $50k + $50k + $50k USD",
-    "status": "ĐÃ JOIN & NỘP KYC KAGGLE · SẴN SÀNG NỘP BÀI",
+    "status": "ĐẬU KYC · ĐÃ LÊN BẢNG SQUARES & SANTA",
     "badge": "emerald",
-    "progress": 88,
+    "progress": 92,
     "deadline": "05/01 – 28/01/2027 (Mốc Squares 17/01)",
     "url": "https://www.kaggle.com/competitions/squares-in-squares",
-    "verified": "Đã Join Squares in Squares + ĐÃ GỬI KYC Persona (Identity verification processing); PLE 28/28, LLM 23/23, Santa -40.58%, Squares 377/1000 thắng lưới (24.171085 vs 28.937670)",
-    "next_action": "Join nốt Santa 2026 & Name That LLM; tối về lấy kaggle.json & up submission_full1000.csv.gz khi KYC xong."
+    "verified": "KYC Persona Verified + Kaggle CLI OK; Squares publicScore 24.171085 (COMPLETE, 0 lỗi); Santa 2026 publicScore 204,357 (COMPLETE, 0 lỗi VM); Name That LLM 23/23 pass (CV 0.3449, sẵn zip); PLE 28/28",
+    "next_action": "Đang chạy tối ưu V2 cho Santa & Squares; upload name-that-llm-pipeline.zip lên Kaggle Notebook để lên bảng Name That LLM."
   },
   {
     "id": "remote-ai-jobs-clean",
@@ -138,8 +138,8 @@
     "badge": "amber",
     "progress": 50,
     "deadline": "Mở tuyển 11/2026 (RWS đã đóng 19/11)",
-    "url": "https://www.dataannotation.tech/",
-    "verified": "DataAnnotation.tech ($20-$50/h) & Mindrift Toloka ($30-$90/h code) pass tiêu chí không phỏng vấn nói; loại Alignerr/Mercor/Turing",
-    "next_action": "Mở laptop mạng nhà (CẤM IP/VPN công ty) thi 1 lần DataAnnotation.tech & Mindrift; + đăng Superteam Anna AI / Nosana."
+    "url": "https://mindrift.ai/",
+    "verified": "DataAnnotation 12/11 treo bước 2 sau 8 ngày (coi như rớt); RWS đóng 19/11; Mindrift ($30-$90/h) chưa đăng ký + sẵn nháp 3 kèo Superteam Nov ($0 vốn: Nosana 300/660 NOS, Anna AI 250 USDC)",
+    "next_action": "Đăng ký mới & làm test Mindrift trên Wi-Fi nhà (tắt VPN) + nộp 3 kèo Superteam Earn từ SUPERTEAM_NOV_SUBMISSIONS.md."
   }
 ]
