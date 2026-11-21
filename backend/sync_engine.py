@@ -694,10 +694,10 @@ def run_sync() -> dict:
             "last_github_write_by": lock_data.get("last_github_write_by"),
             "gmail_status": f"Kiểm tra theo yêu cầu (sync lúc {now_vn.strftime('%H:%M VN')})",
             "agents": [
-                {"name": "Stellar Wave 11 (Hồ Sơ Sạch 56 PR)", "status": "Active", "focus": "Đậu Sumsub KYC; đã đóng 385/385 PR rác -> còn 56 PR; giữ 7 slot Dex-Chat pre-stage & đang quét bù 8 slot mới"},
+                {"name": "Stellar Wave 11 (Hồ Sơ Sạch 56 PR)", "status": "Active", "focus": "Đủ 15/15 slot 200đ (7 Dex-Chat + 8 slot mới) & ĐÃ pre-stage xong 8/8 nhánh SSH-signed sẵn sàng đẩy PR"},
                 {"name": "Tari Bounty Team (33 PR + 10 GHSA)", "status": "Active", "focus": "Đã merge #3851 & #3886; vá conflict #3830 & #3869 -> 17/17 tari-ootle MERGEABLE; đã nộp đủ 10 GHSA"},
-                {"name": "Hackathon & Kaggle (DeBERTa V2 Submitted)", "status": "Active", "focus": "NanoVault ($30k) ĐÃ NỘP; Santa V2 185,887; Squares 24.171; Name That LLM đã nộp DeBERTa V2 OOF 0.4201 (ref 58647073)"},
-                {"name": "Fast Cash & Delphi Arena", "status": "Ready", "focus": "Xong tool delphi-evidence-miner (20/20 tests, 50 live markets) & 3 bộ kit Upwork/Mindrift/Superteam Wave 2"},
+                {"name": "Hackathon & Kaggle (Cả 3 Giải $50k Lên Bảng)", "status": "Active", "focus": "NanoVault ($30k) ĐÃ NỘP; Santa V2 185,887; Squares 24.171; Name That LLM V2 DeBERTa ĐÃ CHẤM 0.312 COMPLETE"},
+                {"name": "Fast Cash 13:00 & Delphi Arena", "status": "Ready", "focus": "Sẵn HOME_13H_CASH_PLAYBOOK (Outlier/uTest/Upwork), delphi-evidence-miner (20/20 tests) & 3 ảnh gốc Superteam"},
             ],
         },
         "campaigns": json.loads(CAMPAIGNS_FILE.read_text(encoding="utf-8")) if CAMPAIGNS_FILE.exists() else [],
