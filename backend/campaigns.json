@@ -1,16 +1,16 @@
 [
   {
     "id": "stellar-wave-11-usdc",
-    "name": "Stellar Wave 11 (Đã Dọn Sạch 385 PR -> 56 PR · Còn 7 Slot Dex-Chat)",
+    "name": "Stellar Wave 11 (Đủ 15/15 Slot 200đ · 8/8 Nhánh Mới Đã Pre-Stage)",
     "category": "OSS Sprint · Python + TypeScript",
     "reward": "Chia quỹ $75,000 USDC (~12–15 ngày về ví)",
-    "status": "ĐÃ DỌN SẠCH 385/385 PR RÁC · CÒN 7 SLOT",
+    "status": "ĐỦ 15/15 SLOT · 8/8 NHÁNH MỚI SẴN ĐẨY PR",
     "badge": "blue",
-    "progress": 75,
+    "progress": 88,
     "deadline": "25/11/2026 (14:00)",
     "url": "https://www.drips.network/wave/stellar",
-    "verified": "Đậu Sumsub KYC; đã đóng êm 385/385 PR $0 (0 lỗi, 0 comment) -> hồ sơ sạch còn đúng 56 PR có thưởng; đang giữ 7 slot Dex-Chat pre-stage & quét bù 8 slot mới",
-    "next_action": "Quét chọn 8 issue 200đ duyệt nhanh nhất để bù đủ 15/15 slot trước hạn 25/11."
+    "verified": "Đậu Sumsub KYC; hồ sơ sạch 56 PR; đã Apply đủ 15/15 slot 200 pts (7 Dex-Chat + 8 slot tốc độ cao: procuresettle#131, moistello#802/#801, BrandBlitz#828/#818/#819, craft#1472/#1473); cả 8/8 nhánh đã code xong, test xanh local & ký SSH Verified",
+    "next_action": "Canh bot drips-wave assign bài nào là đẩy nhánh SSH-signed mở PR trong 2 phút trước hạn 25/11."
   },
   {
     "id": "tari-ootle-security-bounties",
@@ -126,20 +126,20 @@
     "progress": 96,
     "deadline": "05/01 – 28/01/2027 (Mốc Squares 17/01)",
     "url": "https://www.kaggle.com/competitions/squares-in-squares",
-    "verified": "Squares 24.171085 (COMPLETE); Santa V2 185,887 (ref 58642094); Name That LLM V1 0.305 & ĐÃ NỘP V2 DeBERTa-v3-large + Cluster Hungarian (OOF 0.4201, ref 58647073)",
-    "next_action": "Chờ Kaggle chấm điểm ẩn V2 DeBERTa-v3-large (ref 58647073) & chờ subagent Santa V3 chốt bản mới."
+    "verified": "Squares 24.171085 (COMPLETE); Santa V2 185,887 (COMPLETE, ref 58642094); Name That LLM V1 0.305 -> V2 DeBERTa-v3-large + Cluster Hungarian ĐÃ CHẤM 0.312 (COMPLETE, ref 58647073)",
+    "next_action": "Cả 3/3 giải $50k đều chốt bảng (hạn Jan–Jul 2027); tạm ưu tiên toàn lực cho kèo tiền về trước 30/11."
   },
   {
     "id": "remote-ai-jobs-clean",
     "name": "Job AI Remote ($20–$90+/h · Không Phỏng Vấn Nói)",
     "category": "Remote Async AI Evaluation & Coding",
     "reward": "$20–$90+/giờ USD (PayPal / Payoneer)",
-    "status": "LỌC SẠCH KÈO VN HỢP LỆ (CHỜ ĐĂNG KÝ Ở NHÀ)",
+    "status": "SẴN BỘ KIT 13:00 (OUTLIER · UTEST · SUPERTEAM)",
     "badge": "amber",
-    "progress": 65,
+    "progress": 75,
     "deadline": "Mục tiêu $1,000 trước 30/11/2026",
     "url": "https://mindrift.ai/",
-    "verified": "Đã soạn xong 100% 3 bộ kit: UPWORK_FAST_CASH_KIT (5 mẫu bid $50-$300), MINDRIFT_PREP_CHEATSHEET (VN hợp lệ), và SUPERTEAM_WAVE2_PACK (worm.wtf 500 USDC + KriptoK 200 USDC + Anna AI 250 USDC + ảnh gốc)",
-    "next_action": "Chiều tối mở Upwork gửi 5-10 bid + thi Mindrift/Outlier + nộp Superteam $0."
+    "verified": "Đã soạn full bộ kit 13:00: HOME_13H_CASH_PLAYBOOK (Outlier trả thứ Ba + uTest trả 30/11), UPWORK_FAST_CASH_KIT, MINDRIFT_PREP_CHEATSHEET, SUPERTEAM_WAVE2_PACK + 3 ảnh đồ họa gốc (Anna AI, worm.wtf, KriptoK)",
+    "next_action": "13:00 về nhà bật Chrome: nộp worm.wtf 500 USDC (hạn 24/11) + Anna AI 250 USDC, thi Outlier/Mindrift, mở uTest & gửi 3–5 bid Upwork."
   }
 ]
