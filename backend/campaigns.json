@@ -40,16 +40,16 @@
   },
   {
     "id": "kiroween-2026-frankenwave",
-    "name": "FRANKENWAVE (Kiroween 2026 · AWS / Kiro)",
+    "name": "FRANKENWAVE (Kiroween 2026 · AWS / Kiro + ĐÃ CÓ VIDEO)",
     "category": "Hackathon Build · WebCrypto + FSK + Steg",
     "reward": "$100,000+ USD ($30k / $20k / $10k + $5k Track)",
-    "status": "ĐÃ BUILD & LIVE 200 OK · CHỜ KIRO IDE",
+    "status": "ĐÃ QUAY XONG VIDEO .MP4 · CHỜ KIRO IDE",
     "badge": "blue",
-    "progress": 90,
+    "progress": 95,
     "deadline": "04/12/2026 (14:00 PT)",
     "url": "https://cocvn157.github.io/kiroween-2026/",
-    "verified": "23/23 Vitest pass + Edge E2E 6/6 + .kiro specs/hooks/steering + deploy GitHub Pages 200 OK (cocvn157/kiroween-2026)",
-    "next_action": "Mở workspace bằng Kiro IDE lấy Kiro User ID -> quay clip <3p -> nộp trên kiroween.devpost.com."
+    "verified": "23/23 Vitest pass + Edge E2E 6/6 + .kiro specs/hooks/steering + LIVE 200 OK + ĐÃ QUAY VIDEO DEMO frankenwave-demo.mp4 (46.30s)",
+    "next_action": "Mở workspace bằng Kiro IDE lấy Kiro User ID -> up video .mp4 lên YouTube Unlisted -> nộp kiroween.devpost.com."
   },
   {
     "id": "codegeist-2026-shipguard",
@@ -79,29 +79,29 @@
   },
   {
     "id": "signal-lock-reddit-devpost",
-    "name": "Signal Lock (Reddit Game of the Day · Devpost)",
+    "name": "Signal Lock (Reddit Game of the Day + ĐÃ CÓ VIDEO)",
     "category": "Hackathon Build · Reddit Devvit Web + Redis",
     "reward": "$35,000 USD Cash (23 giải · 1st $15k)",
-    "status": "ĐÃ FIX SCHEMA + SCREENSHOT · CHỜ DEVVIT UPLOAD",
+    "status": "ĐÃ QUAY XONG VIDEO .MP4 · CHỜ DEVVIT UPLOAD",
     "badge": "blue",
-    "progress": 90,
+    "progress": 95,
     "deadline": "08/12/2026 (18:00 PST)",
     "url": "https://cocvn157.github.io/signal-lock-devvit/",
-    "verified": "Fix devvit.json v1 & /internal/menu/post-create, 4/4 tests PASS, screenshot 1280x720 + live web 200 OK",
-    "next_action": "Chạy npx.cmd devvit login -> devvit upload -> playtest, quay clip YouTube & nộp Devpost."
+    "verified": "Fix devvit.json v1 & /internal/menu/post-create, 4/4 tests PASS, screenshot 1280x720 + live web 200 OK + VIDEO DEMO signal-lock-demo.mp4 (46.40s)",
+    "next_action": "Chạy npx.cmd devvit login -> devvit upload -> playtest, up video .mp4 lên YouTube & nộp Devpost."
   },
   {
     "id": "arbiter-hacks-cyclearbiter",
-    "name": "CycleArbiter (Arbiter Hacks V1) + MandateRail HSP (HSK Chain $12k · Mới 5 Đối Thủ)",
+    "name": "CycleArbiter (Arbiter Hacks) + MandateRail HSP (LIVE · Mới 5 Đối Thủ)",
     "category": "Hackathon Build · Waste Routing + HSP A2A Settlement",
     "reward": "$7,800 USD (Arbiter) + 12,000 USDT (HSK Seoul Track 2)",
-    "status": "ĐÃ BUILD & QUAY XONG VIDEO CẢ 2 · CHỜ NỘP",
+    "status": "CẢ 2 LIVE 200 OK + ĐỦ VIDEO .MP4 · CHỜ NỘP",
     "badge": "emerald",
-    "progress": 94,
+    "progress": 96,
     "deadline": "03/12 (HSK) & 20/12 (Arbiter)",
-    "url": "https://cocvn157.github.io/arbiter-hacks-2026/",
-    "verified": "CycleArbiter: 11/11 Vitest, live 200 OK, video 57.63s; MandateRail HSP (HSK Horizon Track 2): solc 8502B, 17/17 Vitest, vite build ok, live RPC 133/177, video 51.20s, 5 SSH commits",
-    "next_action": "HSK ($12k): xin free gas grant mainnet 177 trên HashFans + đẩy GitHub -> nộp trước 03/12 11:00 VN; Arbiter: up YouTube video -> nộp arbiterhacks.devpost.com."
+    "url": "https://cocvn157.github.io/mandaterail-hsp/",
+    "verified": "CycleArbiter: MIT LICENSE 0bf94e1, 11/11 Vitest, live 200 OK, video 57.63s; MandateRail HSP: ĐÃ ĐẨY cocvn157/mandaterail-hsp & LIVE Pages 200 OK, solc 8502B, 17/17 Vitest, video 51.20s",
+    "next_action": "HSK ($12k): xin free gas grant mainnet 177 trên HashFans + up video -> nộp 03/12 11:00 VN; Arbiter: up YouTube video -> nộp arbiterhacks.devpost.com."
   },
   {
     "id": "aevum-pay-guard",
