@@ -696,8 +696,8 @@ def run_sync() -> dict:
             "agents": [
                 {"name": "Stellar Wave 11 (Hồ Sơ Sạch 56 PR)", "status": "Active", "focus": "Đủ 15/15 slot 200đ (7 Dex-Chat + 8 slot mới) & ĐÃ pre-stage xong 8/8 nhánh SSH-signed sẵn sàng đẩy PR"},
                 {"name": "Tari Bounty Team (33 PR + 10 GHSA)", "status": "Active", "focus": "Đã merge #3851 & #3886; vá conflict #3830 & #3869 -> 17/17 tari-ootle MERGEABLE; đã nộp đủ 10 GHSA"},
-                {"name": "Hackathon & Kaggle (Cả 3 Giải $50k Lên Bảng)", "status": "Active", "focus": "NanoVault ($30k) ĐÃ NỘP; Santa V2 185,887; Squares 24.171; Name That LLM V2 DeBERTa ĐÃ CHẤM 0.312 COMPLETE"},
-                {"name": "Fast Cash 13:00 & Delphi Arena", "status": "Ready", "focus": "Sẵn HOME_13H_CASH_PLAYBOOK (Outlier/uTest/Upwork), delphi-evidence-miner (20/20 tests) & 3 ảnh gốc Superteam"},
+                {"name": "Hackathon & Demo Videos (ĐÃ QUAY 4 VIDEO .MP4)", "status": "Active", "focus": "Xong 4 video .mp4 soi frame sạch (ScopeGate, MeshWeave, CycleArbiter, HSK MandateRail $12k chỉ 5 đối thủ) + Delphi Miner V2 90.4/100"},
+                {"name": "Superteam (Đã Nộp 750 USDC) & Huntr $15k", "status": "Ready", "focus": "ĐÃ NỘP worm.wtf (500 USDC) & Anna AI (250 USDC); sẵn cẩm nang Huntr Lockdown ($15k, 23 slot trống), 2 ReDoS llama_index & kit Outlier/uTest/Upwork"},
             ],
         },
         "campaigns": json.loads(CAMPAIGNS_FILE.read_text(encoding="utf-8")) if CAMPAIGNS_FILE.exists() else [],
