@@ -27,16 +27,16 @@
   },
   {
     "id": "open-agentic-web-trio",
-    "name": "Open Agentic Web (NandaSeal ĐÃ MERGE #49 · ScopeGate · MeshWeave)",
+    "name": "Open Agentic Web (NandaSeal #49 · ScopeGate · MeshWeave + ĐÃ CÓ CLIP)",
     "category": "Hackathon Build · Devpost + GitHub Pages",
     "reward": "$10,000–$13,000 USD ($5k / $3k / $2k · mới ~6 đối thủ)",
-    "status": "NANDASEAL ĐÃ MERGE #49 · CẢ 3 LIVE 200 OK",
+    "status": "ĐÃ QUAY XONG 2 VIDEO .MP4 · CHỜ UP YOUTUBE & NỘP",
     "badge": "emerald",
-    "progress": 96,
+    "progress": 98,
     "deadline": "11/01/2027",
     "url": "https://cocvn157.github.io/nanda-seal/",
-    "verified": "NandaSeal ĐÃ NỘP + MERGED #49 (06:21 VN 20/11, chuẩn MVP 0.3); ScopeGate Studio (11/11) & MeshWeave Studio (8/8) LIVE 200 OK, pass check_partner.mjs 0 lỗi",
-    "next_action": "Quay clip <3p cho ScopeGate & MeshWeave -> nộp Devpost -> mở PR vào cognizant-ai-labs/agentic-web."
+    "verified": "NandaSeal ĐÃ NỘP + MERGED #49; ScopeGate Studio (11/11 tests, 13/13 MVP 0.3, video 51.60s) & MeshWeave Studio (8/8 tests, video 52.33s) LIVE 200 OK & đã soi frame sạch",
+    "next_action": "Upload 2 file .mp4 lên YouTube Unlisted -> điền Devpost -> mở PR cognizant-ai-labs/agentic-web (xem READY_TO_SUBMIT_DEVPOST_VIDEOS.md)."
   },
   {
     "id": "kiroween-2026-frankenwave",
@@ -92,29 +92,29 @@
   },
   {
     "id": "arbiter-hacks-cyclearbiter",
-    "name": "CycleArbiter (Arbiter Hacks V1 · Rethinking Waste)",
-    "category": "Hackathon Build · Circular Routing + FDA Spoilage",
-    "reward": "$7,800 USD Cash + Credits ($2,100 1st)",
-    "status": "ĐÃ BUILD & LIVE 200 OK · CHỜ NỘP",
-    "badge": "blue",
-    "progress": 90,
-    "deadline": "20/12/2026 (21:00 PST)",
+    "name": "CycleArbiter (Arbiter Hacks V1) + MandateRail HSP (HSK Chain $12k · Mới 5 Đối Thủ)",
+    "category": "Hackathon Build · Waste Routing + HSP A2A Settlement",
+    "reward": "$7,800 USD (Arbiter) + 12,000 USDT (HSK Seoul Track 2)",
+    "status": "ĐÃ BUILD & QUAY XONG VIDEO CẢ 2 · CHỜ NỘP",
+    "badge": "emerald",
+    "progress": 94,
+    "deadline": "03/12 (HSK) & 20/12 (Arbiter)",
     "url": "https://cocvn157.github.io/arbiter-hacks-2026/",
-    "verified": "11/11 Vitest pass + Edge E2E 0 lỗi + GitHub Pages 200 OK (cocvn157/arbiter-hacks-2026)",
-    "next_action": "Quay clip 2–3p theo DEVPOST_SUBMISSION.md & nộp lên arbiterhacks.devpost.com."
+    "verified": "CycleArbiter: 11/11 Vitest, live 200 OK, video 57.63s; MandateRail HSP (HSK Horizon Track 2): solc 8502B, 17/17 Vitest, vite build ok, live RPC 133/177, video 51.20s, 5 SSH commits",
+    "next_action": "HSK ($12k): xin free gas grant mainnet 177 trên HashFans + đẩy GitHub -> nộp trước 03/12 11:00 VN; Arbiter: up YouTube video -> nộp arbiterhacks.devpost.com."
   },
   {
     "id": "aevum-pay-guard",
-    "name": "AevumPay Guard & Reactive Sentinel Omni (DoraHacks)",
-    "category": "Hackathon Build · Solidity + React (ĐÃ NỘP)",
-    "reward": "$1,500 USDT + $5,500 REACT",
-    "status": "ĐÃ NỘP DORAHACKS (100%)",
+    "name": "AevumPay · Reactive Sentinel · Delphi Miner V2 Pro (90.4/100)",
+    "category": "DoraHacks ĐÃ NỘP + Delphi 24h USDC.e Miner",
+    "reward": "$1,500 USDT + $5,500 REACT + $7,250 USDC & USDC.e 24h",
+    "status": "ĐÃ NỘP DORAHACKS + DELPHI V2 ĐẠT 90.4/100",
     "badge": "emerald",
     "progress": 100,
-    "deadline": "05/12 & 11/12/2026",
+    "deadline": "Delphi mở trả USDC.e 24h từ 25/11",
     "url": "https://github.com/cocvn157/reactive-sentinel-omni",
-    "verified": "Cả 2 dự án đã test pass (7/7), chạy full-loop Lasna/Sepolia thật & nộp xong trên DoraHacks",
-    "next_action": "Chờ chấm điểm DoraHacks; đã build xong tool delphi-evidence-miner (20/20 tests, 50 live markets) sẵn sàng săn USDC.e 24h từ 25/11 & chuẩn bị Even Realities 23/11."
+    "verified": "AevumPay & Reactive Sentinel đã nộp DoraHacks; Delphi Evidence Miner V2 Pro đạt 37/37 pytest (0.32s), cào 78 market sống, batch-mine 5/5 READY TB 90.4/100 (HTTP 200)",
+    "next_action": "Chờ 25/11 17:00 UTC chạy lệnh delphi-miner batch-mine nộp lấy USDC.e mỗi 24h."
   },
   {
     "id": "kaggle-quad-550k",
@@ -131,15 +131,15 @@
   },
   {
     "id": "remote-ai-jobs-clean",
-    "name": "Job AI Remote ($20–$90+/h · Không Phỏng Vấn Nói)",
-    "category": "Remote Async AI Evaluation & Coding",
-    "reward": "$20–$90+/giờ USD (PayPal / Payoneer)",
-    "status": "SẴN BỘ KIT 13:00 (OUTLIER · UTEST · SUPERTEAM)",
-    "badge": "amber",
-    "progress": 75,
-    "deadline": "Mục tiêu $1,000 trước 30/11/2026",
-    "url": "https://mindrift.ai/",
-    "verified": "Đã soạn full bộ kit 13:00: HOME_13H_CASH_PLAYBOOK (Outlier trả thứ Ba + uTest trả 30/11), UPWORK_FAST_CASH_KIT, MINDRIFT_PREP_CHEATSHEET, SUPERTEAM_WAVE2_PACK + 3 ảnh đồ họa gốc (Anna AI, worm.wtf, KriptoK)",
-    "next_action": "13:00 về nhà bật Chrome: nộp worm.wtf 500 USDC (hạn 24/11) + Anna AI 250 USDC, thi Outlier/Mindrift, mở uTest & gửi 3–5 bid Upwork."
+    "name": "Superteam (ĐÃ NỘP 750 USDC) · Huntr $15k · Outlier & uTest",
+    "category": "Superteam + AI Red-Team + Remote Evaluation",
+    "reward": "$750 USDC Đã Nộp + $15,000 Huntr Lockdown + $20–$90/h",
+    "status": "ĐÃ NỘP WORM + ANNA · SẴN HUNTR $15K & OUTLIER",
+    "badge": "emerald",
+    "progress": 88,
+    "deadline": "30/11/2026 (Mục tiêu tiền mặt)",
+    "url": "https://huntr.com/challenges/2IcSieNAjMSh0OAMoGhrbZ/v1/rules",
+    "verified": "ĐÃ NỘP worm.wtf (500 USDC) & Anna AI (250 USDC) lúc 13:12 VN; sẵn playbook Huntr Lockdown ($15k, 23 slot trống), 2 ReDoS llama_index, Outlier, uTest (trả 30/11) & Upwork kit",
+    "next_action": "Thức dậy chiến ngay: (1) Huntr Lockdown gõ tay ăn Moving Target/Spring Cleaning, (2) Outlier.ai trả Thứ Ba + uTest trả 30/11 + 2 ReDoS llama_index lên Huntr."
   }
 ]
