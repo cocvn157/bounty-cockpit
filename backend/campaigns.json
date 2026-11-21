@@ -1,29 +1,29 @@
 [
   {
     "id": "stellar-wave-11-usdc",
-    "name": "Stellar Wave 11 (Còn 7 Slot Dex-Chat · Đã Dọn 182/385 PR Rác)",
+    "name": "Stellar Wave 11 (Đã Dọn Sạch 385 PR -> 56 PR · Còn 7 Slot Dex-Chat)",
     "category": "OSS Sprint · Python + TypeScript",
     "reward": "Chia quỹ $75,000 USDC (~12–15 ngày về ví)",
-    "status": "ĐÃ DỌN 182/385 PR RÁC (TẠM DỪNG CHẬM) · CÒN 7 SLOT MỞ",
-    "badge": "amber",
-    "progress": 68,
+    "status": "ĐÃ DỌN SẠCH 385/385 PR RÁC · CÒN 7 SLOT",
+    "badge": "blue",
+    "progress": 75,
     "deadline": "25/11/2026 (14:00)",
     "url": "https://www.drips.network/wave/stellar",
-    "verified": "Đậu Sumsub KYC; đã đóng 182 PR $0 an toàn (0 lỗi, không comment), tạm dừng theo yêu cầu chống spam (tổng mở 441 -> 259; giữ nguyên 100% 56 PR có thưởng; còn 203 PR $0 đóng từ từ)",
-    "next_action": "Giữ 7 slot Dex-Chat đã pre-stage (#1783/#1778/#1780/#1758/#1772/#1786/#1781) và chờ lệnh anh để đóng nốt 203 PR $0 theo từng đợt chậm."
+    "verified": "Đậu Sumsub KYC; đã đóng êm 385/385 PR $0 (0 lỗi, 0 comment) -> hồ sơ sạch còn đúng 56 PR có thưởng; đang giữ 7 slot Dex-Chat pre-stage & quét bù 8 slot mới",
+    "next_action": "Quét chọn 8 issue 200đ duyệt nhanh nhất để bù đủ 15/15 slot trước hạn 25/11."
   },
   {
     "id": "tari-ootle-security-bounties",
-    "name": "Tari Ecosystem (#3851 & #3886 Đã Merge · ĐÃ NỘP 7/7 GHSA)",
+    "name": "Tari Ecosystem (#3851 & #3886 Đã Merge · ĐÃ NỘP 10 GHSA)",
     "category": "Security Audit & Bugfix · Rust / Python / TS",
-    "reward": "Chốt 15k XTM (#676, ~$8.8) · Chờ xét retro #3886 · Medium 60k XTM",
-    "status": "ĐÃ MERGE #3851 & #3886 · ĐÃ NỘP 7/7 GHSA",
+    "reward": "Chốt 15k XTM (#676, ~$8.25) · Chờ xét retro #3886 · Medium 60k XTM",
+    "status": "ĐÃ MERGE #3851 & #3886 · ĐÃ NỘP 10 GHSA",
     "badge": "emerald",
     "progress": 98,
     "deadline": "Trả thưởng gộp 1–2 tuần qua special_contributions",
     "url": "https://github.com/tari-project/tari-ootle/pull/3886",
-    "verified": "PR #3886 ĐÃ MERGE 20/11; Claim #678 (15k XTM) chờ batch; ĐÃ NỘP ĐỦ 7/7 GHSA (3 universe gồm wxtm-bridge-frontend + 4 tari L1); 33 PR hệ Tari đang mở sạch",
-    "next_action": "Chờ Tari Security triage 7 GHSA & chờ admin trả batch #678 + xét retro #3886."
+    "verified": "PR #3886 ĐÃ MERGE 20/11; Claim #678 (15k XTM) chờ batch; ĐÃ NỘP ĐỦ 10 GHSA (3 tari-ootle + 3 universe/wxtm + 4 tari L1); Đã vá conflict #3830 & #3869 -> 17/17 PR tari-ootle MERGEABLE",
+    "next_action": "Chờ Tari Security triage 10 GHSA & chờ admin trả batch #678 + xét retro #3886."
   },
   {
     "id": "open-agentic-web-trio",
@@ -114,7 +114,7 @@
     "deadline": "05/12 & 11/12/2026",
     "url": "https://github.com/cocvn157/reactive-sentinel-omni",
     "verified": "Cả 2 dự án đã test pass (7/7), chạy full-loop Lasna/Sepolia thật & nộp xong trên DoraHacks",
-    "next_action": "Chờ ban tổ chức chấm điểm; chuẩn bị Even Realities ($10k) & Agent Arena ($7.25k) mở code ngày 23/11."
+    "next_action": "Chờ chấm điểm DoraHacks; đã build xong tool delphi-evidence-miner (20/20 tests, 50 live markets) sẵn sàng săn USDC.e 24h từ 25/11 & chuẩn bị Even Realities 23/11."
   },
   {
     "id": "kaggle-quad-550k",
@@ -123,11 +123,11 @@
     "reward": "$400k + $50k + $50k + $50k USD",
     "status": "ĐẬU KYC · CẢ 3/3 GIẢI $50K ĐÃ LÊN BẢNG",
     "badge": "emerald",
-    "progress": 94,
+    "progress": 96,
     "deadline": "05/01 – 28/01/2027 (Mốc Squares 17/01)",
     "url": "https://www.kaggle.com/competitions/squares-in-squares",
-    "verified": "Squares 24.171085 (COMPLETE); Santa 2026 V2 185,887 (ref 58642094, giảm 18,470 bước); Name That LLM 0.305 (ref 58618383) + đang train V2 DeBERTa-v3-large trên Kaggle GPU T4",
-    "next_action": "Chờ Kaggle GPU T4 xong DeBERTa-v3-large V2 để bứt từ 0.305 hướng Top 10 (0.766) & Santa V3 tối ưu sâu hơn."
+    "verified": "Squares 24.171085 (COMPLETE); Santa V2 185,887 (ref 58642094); Name That LLM V1 0.305 & ĐÃ NỘP V2 DeBERTa-v3-large + Cluster Hungarian (OOF 0.4201, ref 58647073)",
+    "next_action": "Chờ Kaggle chấm điểm ẩn V2 DeBERTa-v3-large (ref 58647073) & chờ subagent Santa V3 chốt bản mới."
   },
   {
     "id": "remote-ai-jobs-clean",
@@ -136,10 +136,10 @@
     "reward": "$20–$90+/giờ USD (PayPal / Payoneer)",
     "status": "LỌC SẠCH KÈO VN HỢP LỆ (CHỜ ĐĂNG KÝ Ở NHÀ)",
     "badge": "amber",
-    "progress": 50,
+    "progress": 65,
     "deadline": "Mục tiêu $1,000 trước 30/11/2026",
     "url": "https://mindrift.ai/",
-    "verified": "DataAnnotation treo bước 2; RWS đóng 19/11; MEXC KYC đã duyệt; sẵn ảnh gốc + nháp Superteam Anna AI (250 USDC), Nosana (300/660 NOS), delphi.fyi (4G), và Mindrift ($30-$90/h)",
-    "next_action": "Đăng ký & làm test Mindrift trên Wi-Fi nhà + tạo ví delphi.fyi trên 4G + nộp Anna AI (chỉ cần X) & thử lại Discord Nosana."
+    "verified": "Đã soạn xong 100% 3 bộ kit: UPWORK_FAST_CASH_KIT (5 mẫu bid $50-$300), MINDRIFT_PREP_CHEATSHEET (VN hợp lệ), và SUPERTEAM_WAVE2_PACK (worm.wtf 500 USDC + KriptoK 200 USDC + Anna AI 250 USDC + ảnh gốc)",
+    "next_action": "Chiều tối mở Upwork gửi 5-10 bid + thi Mindrift/Outlier + nộp Superteam $0."
   }
 ]
