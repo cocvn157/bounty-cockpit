@@ -1,29 +1,29 @@
 [
   {
     "id": "stellar-wave-11-usdc",
-    "name": "Stellar Wave 11 (15/15 Slot Đã Apply · 3,000 Điểm Đã Code Sẵn)",
+    "name": "Stellar Wave 11 (Còn 7 Slot Dex-Chat · Đang Dọn Hồ Sơ PR Sạch)",
     "category": "OSS Sprint · Python + TypeScript",
     "reward": "Chia quỹ $75,000 USDC (~12–15 ngày về ví)",
-    "status": "ĐÃ KYC + APPLY ĐỦ 15/15 (3,000Đ)",
-    "badge": "emerald",
-    "progress": 90,
+    "status": "ĐANG DỌN 385 PR RÁC · CÒN 7 SLOT MỞ",
+    "badge": "amber",
+    "progress": 65,
     "deadline": "25/11/2026 (14:00)",
     "url": "https://www.drips.network/wave/stellar",
-    "verified": "Đậu Sumsub KYC; Apply đủ 15/15 bài 200đ (airlock 7/7 0 đối thủ + Dex 8/8) & ĐÃ CODE + PASS TEST ĐỦ 15/15 nhánh sẵn sàng push PR",
-    "next_action": "Chờ maintainer gán tên (check bằng lệnh khi anh báo) là đẩy thẳng 15 PR lên kiếm USDC!"
+    "verified": "Đậu Sumsub KYC; 7/7 airlock & Dex#1754 bị gán cho người apply sau do hồ sơ có 441 PR mở; đang đóng sạch 385 PR $0 -> còn 56 PR có thưởng",
+    "next_action": "Giữ 7 slot Dex-Chat đã pre-stage (#1783/#1778/#1780/#1758/#1772/#1786/#1781) và chờ gán sau khi hồ sơ PR sạch."
   },
   {
     "id": "tari-ootle-security-bounties",
-    "name": "Tari Ecosystem (#3851 & #3886 Đã Merge · ĐÃ NỘP 6/6 GHSA)",
+    "name": "Tari Ecosystem (#3851 & #3886 Đã Merge · ĐÃ NỘP 7/7 GHSA)",
     "category": "Security Audit & Bugfix · Rust / Python / TS",
     "reward": "Chốt 15k XTM (#676, ~$8.8) · Chờ xét retro #3886 · Medium 60k XTM",
-    "status": "ĐÃ MERGE #3851 & #3886 · ĐÃ NỘP 6/6 GHSA",
+    "status": "ĐÃ MERGE #3851 & #3886 · ĐÃ NỘP 7/7 GHSA",
     "badge": "emerald",
     "progress": 98,
     "deadline": "Trả thưởng gộp 1–2 tuần qua special_contributions",
     "url": "https://github.com/tari-project/tari-ootle/pull/3886",
-    "verified": "PR #3886 ĐÃ MERGE 15:29 VN (20/11); Claim #678 (15k XTM) chờ batch; Đã push fix review 6 PR; ĐÃ NỘP 6/6 GHSA (2 universe + 4 tari L1) + 1 Medium mới wxtm-bridge-frontend",
-    "next_action": "Nộp nốt 1 GHSA wxtm-bridge-frontend (2 phút) & chờ triage 6 GHSA + retro-bounty #3886."
+    "verified": "PR #3886 ĐÃ MERGE 20/11; Claim #678 (15k XTM) chờ batch; ĐÃ NỘP ĐỦ 7/7 GHSA (3 universe gồm wxtm-bridge-frontend + 4 tari L1); 33 PR hệ Tari đang mở sạch",
+    "next_action": "Chờ Tari Security triage 7 GHSA & chờ admin trả batch #678 + xét retro #3886."
   },
   {
     "id": "open-agentic-web-trio",
@@ -121,13 +121,13 @@
     "name": "Bộ 4 Giải Kaggle ($550,000 USD: PLE · LLM · Santa · Squares)",
     "category": "AI Harness · NLP · Algorithmic Optimization",
     "reward": "$400k + $50k + $50k + $50k USD",
-    "status": "ĐẬU KYC · ĐÃ LÊN BẢNG SQUARES & SANTA",
+    "status": "ĐẬU KYC · CẢ 3/3 GIẢI $50K ĐÃ LÊN BẢNG",
     "badge": "emerald",
-    "progress": 92,
+    "progress": 94,
     "deadline": "05/01 – 28/01/2027 (Mốc Squares 17/01)",
     "url": "https://www.kaggle.com/competitions/squares-in-squares",
-    "verified": "KYC Persona Verified + Kaggle CLI OK; Squares publicScore 24.171085 (COMPLETE, 0 lỗi); Santa 2026 publicScore 204,357 (COMPLETE, 0 lỗi VM); Name That LLM 23/23 pass (CV 0.3449, sẵn zip); PLE 28/28",
-    "next_action": "Đang chạy tối ưu V2 cho Santa & Squares; upload name-that-llm-pipeline.zip lên Kaggle Notebook để lên bảng Name That LLM."
+    "verified": "Squares 24.171085 (COMPLETE); Santa 2026 V2 185,887 (ref 58642094, giảm 18,470 bước); Name That LLM 0.305 (ref 58618383) + đang train V2 DeBERTa-v3-large trên Kaggle GPU T4",
+    "next_action": "Chờ Kaggle GPU T4 xong DeBERTa-v3-large V2 để bứt từ 0.305 hướng Top 10 (0.766) & Santa V3 tối ưu sâu hơn."
   },
   {
     "id": "remote-ai-jobs-clean",
@@ -137,9 +137,9 @@
     "status": "LỌC SẠCH KÈO VN HỢP LỆ (CHỜ ĐĂNG KÝ Ở NHÀ)",
     "badge": "amber",
     "progress": 50,
-    "deadline": "Mở tuyển 11/2026 (RWS đã đóng 19/11)",
+    "deadline": "Mục tiêu $1,000 trước 30/11/2026",
     "url": "https://mindrift.ai/",
-    "verified": "DataAnnotation 12/11 treo bước 2 sau 8 ngày (coi như rớt); RWS đóng 19/11; Mindrift ($30-$90/h) chưa đăng ký + sẵn nháp 3 kèo Superteam Nov ($0 vốn: Nosana 300/660 NOS, Anna AI 250 USDC)",
-    "next_action": "Đăng ký mới & làm test Mindrift trên Wi-Fi nhà (tắt VPN) + nộp 3 kèo Superteam Earn từ SUPERTEAM_NOV_SUBMISSIONS.md."
+    "verified": "DataAnnotation treo bước 2; RWS đóng 19/11; MEXC KYC đã duyệt; sẵn ảnh gốc + nháp Superteam Anna AI (250 USDC), Nosana (300/660 NOS), delphi.fyi (4G), và Mindrift ($30-$90/h)",
+    "next_action": "Đăng ký & làm test Mindrift trên Wi-Fi nhà + tạo ví delphi.fyi trên 4G + nộp Anna AI (chỉ cần X) & thử lại Discord Nosana."
   }
 ]
