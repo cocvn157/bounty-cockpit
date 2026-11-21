@@ -1,16 +1,16 @@
 [
   {
     "id": "stellar-wave-11-usdc",
-    "name": "Stellar Wave 11 (Còn 7 Slot Dex-Chat · Đang Dọn Hồ Sơ PR Sạch)",
+    "name": "Stellar Wave 11 (Còn 7 Slot Dex-Chat · Đã Dọn 182/385 PR Rác)",
     "category": "OSS Sprint · Python + TypeScript",
     "reward": "Chia quỹ $75,000 USDC (~12–15 ngày về ví)",
-    "status": "ĐANG DỌN 385 PR RÁC · CÒN 7 SLOT MỞ",
+    "status": "ĐÃ DỌN 182/385 PR RÁC (TẠM DỪNG CHẬM) · CÒN 7 SLOT MỞ",
     "badge": "amber",
-    "progress": 65,
+    "progress": 68,
     "deadline": "25/11/2026 (14:00)",
     "url": "https://www.drips.network/wave/stellar",
-    "verified": "Đậu Sumsub KYC; 7/7 airlock & Dex#1754 bị gán cho người apply sau do hồ sơ có 441 PR mở; đang đóng sạch 385 PR $0 -> còn 56 PR có thưởng",
-    "next_action": "Giữ 7 slot Dex-Chat đã pre-stage (#1783/#1778/#1780/#1758/#1772/#1786/#1781) và chờ gán sau khi hồ sơ PR sạch."
+    "verified": "Đậu Sumsub KYC; đã đóng 182 PR $0 an toàn (0 lỗi, không comment), tạm dừng theo yêu cầu chống spam (tổng mở 441 -> 259; giữ nguyên 100% 56 PR có thưởng; còn 203 PR $0 đóng từ từ)",
+    "next_action": "Giữ 7 slot Dex-Chat đã pre-stage (#1783/#1778/#1780/#1758/#1772/#1786/#1781) và chờ lệnh anh để đóng nốt 203 PR $0 theo từng đợt chậm."
   },
   {
     "id": "tari-ootle-security-bounties",
