@@ -618,7 +618,7 @@ def run_sync() -> dict:
         except Exception:
             w2_data = {}
 
-    deadline_dt = datetime.datetime(2026, 11, 20, 23, 59, 59, tzinfo=datetime.timezone(datetime.timedelta(hours=7)))
+    deadline_dt = datetime.datetime(2026, 11, 30, 23, 59, 59, tzinfo=datetime.timezone(datetime.timedelta(hours=7)))
     deadline_left_hours = max(0, round((deadline_dt - now_vn).total_seconds() / 3600, 1))
 
     conn = sqlite3.connect(DB_PATH)
@@ -671,7 +671,7 @@ def run_sync() -> dict:
             "near_win_usd": near_win_usd,
             "active_paid_usd": active_paid_usd,
             "deadline_iso": deadline_dt.isoformat(),
-            "deadline_label": "20/11/2026",
+            "deadline_label": "30/11/2026",
             "hours_remaining": deadline_left_hours,
         },
         "kpis": {
@@ -694,10 +694,10 @@ def run_sync() -> dict:
             "last_github_write_by": lock_data.get("last_github_write_by"),
             "gmail_status": f"Kiểm tra theo yêu cầu (sync lúc {now_vn.strftime('%H:%M VN')})",
             "agents": [
-                {"name": "Stellar Wave 11 (15/15)", "status": "Ready", "focus": "Đậu KYC & apply 15/15 (3,000đ) · Đã pre-stage 15/15 branch airlock & Dex-Chat, chờ assign để push"},
-                {"name": "Tari Bounty Team", "status": "Active", "focus": "Đã merge #3851 (15k XTM #676) & #3886 (15:29 VN) · Đã push fix review #8408/#3885/#3882/#3881/#3884/#3871 + 7 nháp GHSA"},
-                {"name": "Hackathon & Kaggle", "status": "Active", "focus": "Agentic Web #49 merged · Live Kiroween/ShipGuard/SignalLock/NanoVault/CycleArbiter · 4 giải Kaggle $550k"},
-                {"name": "Remote AI Jobs", "status": "Standby", "focus": "Lọc sạch DataAnnotation.tech & Mindrift ($20-$90/h, không phỏng vấn nói) chờ thi bằng mạng nhà"},
+                {"name": "Stellar Wave 11", "status": "Active", "focus": "Đậu Sumsub KYC; đang giữ 7 slot Dex-Chat pre-stage (#1783/#1778/#1780/#1758/#1772/#1786/#1781) sau khi dọn hồ sơ PR sạch"},
+                {"name": "Tari Bounty Team", "status": "Active", "focus": "Đã merge #3851 (15k XTM) & #3886 (20/11); ĐÃ NỘP ĐỦ 7/7 GHSA (3 universe gồm wxtm-bridge + 4 tari L1) & giữ 33 PR sạch"},
+                {"name": "Hackathon & Kaggle", "status": "Active", "focus": "NanoVault Hybrid ($30k) ĐÃ NỘP; Santa V2 185,887; Squares 24.171; LLM 0.305 (đang chạy DeBERTa V2 GPU T4)"},
+                {"name": "Remote AI Jobs & Superteam", "status": "Ready", "focus": "Sẵn ảnh + nháp Anna AI (250 USDC, chỉ cần X), Nosana (300/660 NOS), delphi.fyi (4G), và Mindrift ($30-$90/h)"},
             ],
         },
         "campaigns": json.loads(CAMPAIGNS_FILE.read_text(encoding="utf-8")) if CAMPAIGNS_FILE.exists() else [],
